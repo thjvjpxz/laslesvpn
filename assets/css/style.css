@@ -573,17 +573,17 @@ body {
   .info {
     height: auto;
     padding-block: 30px;
-    /* flex-direction: column;
-    align-items: flex-start; */
-    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
     margin-top: 50px;
   }
   .tag-line {
-    /* display: none; */
-    height: 55px;
+    display: none;
+    /* height: 55px; */
   }
   .info-user {
-    /* margin-left: 70px; */
+    margin-left: 70px;
     gap: 20px;
   }
   .intro {
