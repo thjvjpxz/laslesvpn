@@ -473,6 +473,11 @@ body {
 
 /* css resposive */
 @media (max-width: 1160px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+    width: 100vw !important;
+  }
   .container {
     width: 90%;
   }
